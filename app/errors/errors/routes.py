@@ -1,7 +1,6 @@
 """
 The module for Errors Routes.
 Amer Ahmed
-Supervisor: Joakim Wassberg
 Version 0.0
 """
 
@@ -12,7 +11,7 @@ errors = Blueprint('errors', __name__)
 
 @errors.app_errorhandler(403)
 def forbidden(e):
-    # Forbidden to access witout auhen
+    # Forbidden to access without authentication
     if request.accept_mimetypes.accept_json and \
             not request.accept_mimetypes.accept_html:
         response = jsonify({'error': 'forbidden'})

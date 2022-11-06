@@ -1,16 +1,13 @@
 """
 The module for User and Post.
 Amer Ahmed
-Supervisor: Joakim Wassberg
 Version 0.0
 """
 
 from datetime import datetime
-
 from flask import current_app
 from flask_login import UserMixin
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
-
 from app import db, login_manager
 
 

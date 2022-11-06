@@ -1,14 +1,12 @@
 """
 The module for Posts Routes.
 Amer Ahmed
-Supervisor: Joakim Wassberg
 Version 0.0
 """
 
-from flask import (Blueprint, abort, flash, redirect, render_template, request,
-                   url_for)
+from flask import Blueprint, abort, flash, redirect
+from flask import render_template, request, url_for
 from flask_login import current_user, login_required
-
 from app import db
 from app.models.models.models import Post
 from app.posts.forms.forms import PostForm

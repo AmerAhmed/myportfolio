@@ -1,7 +1,6 @@
 """
 The module for Posts Form.
 Amer Ahmed
-Supervisor: Joakim Wassberg
 Version 0.0
 """
 

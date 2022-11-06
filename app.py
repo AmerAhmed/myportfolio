@@ -1,7 +1,6 @@
 """
 The main entry point for applications!
 Amer Ahmed
-Supervisor: Joakim Wassberg
 Version 0.0.1
 """
 

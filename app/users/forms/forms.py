@@ -1,7 +1,6 @@
 """
 The module for user RegistrationForm.
 Amer Ahmed
-Supervisor: Joakim Wassberg
 Version 0.0.1
 """
 
